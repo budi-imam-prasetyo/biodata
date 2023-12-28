@@ -4,34 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potofolio</title>
-    <link rel="stylesheet" href="style.css"
+    <title>Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="img">
-        <img src="profile.png" class="profile" />
-    </div>
-    <div class="container">
-    <div class="konten">
-        <p><code>Hai, aku Budi Imam Prasetyo, dan ini adalah biodataku😁</code></p><br>
-        <p><code> Lahir &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Selasa,03 Oktober 2006</code></p><br>
-        <p><code>Jenis Kelamin : Laki-laki</code></p><br>
-        <p><code>Agama &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Islam</code></p><br>
-        <p><code>Tinggi Badan &nbsp: <a href="https://hikaku-sitatter.com/en/" class="tb">180cm</a></code></p><br>
-        <p><code>Hobi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Main Game</code></p><br>
-        <p><code>Pendidikan &nbsp&nbsp&nbsp: - SDN Melong Mandiri 2</code></p>
-        <p><code>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - SMPN 4 Cimahi</code></p>
-        <p><code>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - SMKN 11 Bandung</code></p><br>&nbsp&nbsp&nbsp
-        <a href="https://github.com/budi-imam-prasetyo" >
-        <img src="github.png" class="github" />
-        </a>&nbsp&nbsp&nbsp
-        <a href="https://www.instagram.com/budi_22149_/" >
-        <img src="instagram.png" class="instagram" />
-        </a>&nbsp&nbsp&nbsp
-        <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=budiimamprsty@gmail.com" >
-        <img src="gmail.png" class="gmail" />
-        </a>
-    </div>
+<body class="bg-gray-100 min-h-screen flex justify-center items-center font-sans">
+    <div class="w-full max-w-md p-8 bg-white rounded-lg shadow-lg">
+        <img src="profile.png" class="w-32 h-32 mx-auto mb-4 rounded-full" alt="Foto Profil">
+        <div class="text-gray-800 text-center">
+            <p class="mb-4 text-xl font-semibold">Hai, saya Budi Imam Prasetyo 😊</p>
+            <p class="mb-2"><strong>Lahir:</strong> Selasa, 03 Oktober 2006</p>
+            <p class="mb-2"><strong>Jenis Kelamin:</strong> Laki-laki</p>
+            <p class="mb-2"><strong>Agama:</strong> Islam</p>
+            <p class="mb-2"><strong>Tinggi Badan:</strong> <a href="https://hikaku-sitatter.com/en/" class="text-gray-700 hover:text-gray-900 bg-gray-200 hover:bg-gray-300 px-2 py-1 rounded transition duration-300">180cm</a></p>
+            <p class="mb-2"><strong>Hobi:</strong> Main Game</p>
+            <p class="mb-4"><strong>Pendidikan:</strong><br>- SDN Melong Mandiri 2<br>- SMPN 4 Cimahi<br>- SMKN 11 Bandung</p>
+            <div class="flex justify-center space-x-4">
+                <a href="https://github.com/budi-imam-prasetyo" class="p-2 bg-transparent hover:bg-slate-200 text-white rounded transition duration-300">
+                    <img src="github.png" class="h-8" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/budi_22149_/" class="p-2 bg-transparent hover:bg-slate-200 text-white rounded transition duration-300">
+                    <img src="instagram.png" class="h-8" alt="Instagram">
+                </a>
+                <a href="mailto:budiimamprsty@gmail.com" class="p-2 bg-transparent hover:bg-slate-200 text-white rounded transition duration-300">
+                    <img src="gmail.png" class="h-8" alt="Gmail">
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
